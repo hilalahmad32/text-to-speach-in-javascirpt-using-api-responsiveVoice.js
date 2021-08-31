@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(197, 197, 209);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.row{
+    width: 50%;
+    padding: 30px;
+}
+.form-control{
+    width: 100%;
+    outline: none;
+    padding: 10px 4px;
+    font-size: 1.3rem;
+
+}
+#btn{
+    outline: none;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1.4rem;
+    margin: 20px 0px;
+    width: 100%;
+    cursor: pointer;
+}
+.text{
+    font-size: 5rem;
+    margin: 10px 0px;
+}
